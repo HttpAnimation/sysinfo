@@ -2,7 +2,7 @@
 
 **sysinfo** is a Bash script that provides a comprehensive snapshot of system information. It covers details such as uptime, IP address, CPU usage, RAM utilization, disk usage, network, logged-in users, and a timestamp. This script can be useful for users who want a quick overview of their system's current state.
 
-## Usage
+## Usage/Install
 
 1. Clone the repository:
 
@@ -26,6 +26,12 @@
 
     ```bash
     ./sysinfo.sh
+    ```
+
+## One time install
+This install will download the script run it then delete it
+    ```
+    wget https://raw.githubusercontent.com/HttpAnimation/sysinfo/main/bash.sh && chmod +x bash.sh && ./bash.sh && rm bash.sh
     ```
 
 ## Information Displayed
