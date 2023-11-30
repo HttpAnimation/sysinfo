@@ -30,7 +30,8 @@
 
 ## One time install
 This install will download the script run it then delete it
-    ```
+
+    ```bash
     wget https://raw.githubusercontent.com/HttpAnimation/sysinfo/main/bash.sh && chmod +x bash.sh && ./bash.sh && rm bash.sh
     ```
 
